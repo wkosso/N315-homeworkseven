@@ -88,7 +88,7 @@ function route() {
     let pageID = hashTag.replace("#", "");
     console.log("route", pageID);
     
- 
+   
 
     changePage(pageID);
 }
@@ -101,10 +101,10 @@ $(document).ready(function () {
    
 
   //  changePage("home");
-
+ changePage("login");
     initSite();
-    changePage("login");
+   
     initListeners();
-  
+
   
 });

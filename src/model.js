@@ -6,6 +6,8 @@ import {app } from "./firebaseConfig";
 const auth= getAuth(app);
 
 
+
+
 onAuthStateChanged(auth, (user)=>{
     if(user){
         console.log("user is signed in");
